@@ -20,7 +20,6 @@
     $radius = $_POST['radius'];
     $perimeter = null;
     $perimeter = 2*3.14*$radius;
-    // echo $perimeter;
     echo "perimeter of circle is {$perimeter} <br>";
     $area = null;
     $area = 3.14*$radius*$radius;
